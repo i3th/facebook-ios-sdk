@@ -44,8 +44,6 @@ Pod::Spec.new do |s|
     ss.public_header_files = 'FBSDKCoreKit/FBSDKCoreKit/Basics/Internal/**/*.h',
                              'FBSDKCoreKit/FBSDKCoreKit/Basics/Instrument/**/*.h',
                              'FBSDKCoreKit/FBSDKCoreKit/Basics/*.h'
-    ss.private_header_files = 'FBSDKCoreKit/FBSDKCoreKit/Basics/Internal/**/*.h',
-                              'FBSDKCoreKit/FBSDKCoreKit/Basics/Instrument/**/*.h'
     ss.library = 'z'
   end
 
@@ -59,8 +57,6 @@ Pod::Spec.new do |s|
                              'FBSDKCoreKit/FBSDKCoreKit/*.h',
                              'FBSDKCoreKit/FBSDKCoreKit/AppEvents/*.h',
                              'FBSDKCoreKit/FBSDKCoreKit/AppLink/*.h'
-    ss.private_header_files = 'FBSDKCoreKit/FBSDKCoreKit/Internal/**/*.h',
-                              'FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/**/*.h'
     ss.resources = 'FacebookSDKStrings.bundle'
     ss.ios.exclude_files = 'FBSDKCoreKit/FBSDKCoreKit/FBSDKDeviceButton.{h,m}',
                            'FBSDKCoreKit/FBSDKCoreKit/FBSDKDeviceViewControllerBase.{h,m}',
